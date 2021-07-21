@@ -1,0 +1,48 @@
+.w600 {
+  width: 600px;
+}
+.h-panel-label {
+  display: inline-block;
+  width: 160px;
+}
+.m-row {
+  display: flex;
+  justify-content: space-between;
+}
+.m-cel.rest {
+  flex: 2;
+}
+.tablo {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #eeeeee;
+}
+.tablo table {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.tablo table thead tr {
+  border-bottom: 1px solid #eeeeee;
+}
+.tablo table thead tr th {
+  text-align: center;
+  padding: 6px 10px;
+  font-size: 16px;
+}
+.tablo table thead tr th.site {
+  background: #45b984;
+  color: #fff;
+}
+.tablo table thead tr th.base {
+  background: #3c8dbc;
+  color: #fff;
+}
+.tablo table tbody tr td {
+  padding: 10px 0;
+  font-size: 24px;
+}
+/*# sourceMappingURL=style.backend.css.map */
